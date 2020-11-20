@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.messpoll">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lunch.UradDalList"></activity>
+        <activity android:name=".lunch.MaaDaalList" />
+        <activity android:name=".lunch.ChanaDalFryList" />
+        <activity android:name=".lunch.ArharDalList" />
+        <activity android:name=".lunch.AlooNutrellaList" />
+        <activity android:name=".lunch.RajmaList" />
+        <activity android:name=".lunch.PlainRiceList" />
+        <activity android:name=".lunch.MixedDalFryList" />
+        <activity android:name=".lunch.DumAlooList" />
+        <activity android:name=".lunch.DalMakhaniList" />
+        <activity android:name=".lunch.CholeBathureList" />
+        <activity android:name=".lunch.CholeList" />
+        <activity android:name=".lunch.BoondiRaitaList" />
+        <activity android:name=".lunch.AlooMatarList" />
+        <activity android:name=".lunch.LunchResults" />
+        <activity android:name=".lunch.LunchPollActivity" />
+        <activity android:name=".breakfast.CoffeeList" />
+        <activity android:name=".breakfast.TeaList" />
+        <activity android:name=".breakfast.PooriList" />
+        <activity android:name=".breakfast.PlainList" />
+        <activity android:name=".breakfast.PaneerList" />
+        <activity android:name=".breakfast.GobhiList" />
+        <activity android:name=".breakfast.AlooList" />
+        <activity android:name=".breakfast.BreakfastResults" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".breakfast.BreakfastPollActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
